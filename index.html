@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay Veeramalla - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">SV</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Veeramalla Sanjay</h1>
+                <p class="hero-subtitle">Software Developer</p>
+                <p class="hero-description">
+                    B.Tech graduate in Computer Science and Engineering with strong programming skills in Java and Python. 
+                    Passionate about solving real-world problems using data structures and algorithms.
+                </p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-img">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello, I'm Sanjay!</h3>
+                    <p>
+                        As a dedicated Computer Science and Engineering graduate from GuruNanak Institute of Technology 
+                        with a CGPA of 8.78/10, I bring a strong foundation in programming and problem-solving to every project.
+                    </p>
+                    <p>
+                        My expertise spans across Java, Python, and web technologies, with hands-on experience in full-stack 
+                        development through various internships including Wipro TalentNext Java Full Stack program and 
+                        Salesforce Developer Virtual Internship.
+                    </p>
+                    <p>
+                        I'm passionate about creating innovative solutions that make a real impact, whether it's building 
+                        responsive web applications, developing interactive games, or designing comprehensive task management systems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> CS Fundamentals</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">OS</span>
+                        <span class="skill-tag">DBMS</span>
+                        <span class="skill-tag">Computer Networks</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Netflix Clone</div>
+                        <div class="project-date">June 2024</div>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            A static Netflix clone created using HTML and CSS. This project showcases modern web design 
+                            techniques and responsive layouts, featuring a navigation bar, movie banners, and a grid of 
+                            movies that replicate the Netflix platform's look and feel.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://myflix-clone.vercel.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Simon Game</div>
+                        <div class="project-date">November 2024</div>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            A responsive, interactive web application inspired by the classic memory game. The game 
+                            challenges users to follow increasingly complex color sequences, tracks progress, updates 
+                            levels, and provides real-time feedback with high score tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://simon-says-game-two-hazel.vercel.app/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-title">Task Manager</div>
+                        <div class="project-date">June 2025</div>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            A full-stack web application for efficient task management built with Java and Spring Boot. 
+                            Features secure user authentication, dynamic task creation, categorization, priority levels, 
+                            deadline tracking, file attachments, and a comprehensive dashboard with visual summaries.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://task-manager-3ygp.onrender.com/login" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-degree">B.Tech - Computer Science and Engineering</div>
+                    <div class="education-school">GuruNanak Institute of Technology, Hyderabad</div>
+                    <div class="education-details">
+                        <span>November 2021 - June 2025</span>
+                        <span class="education-grade">CGPA: 8.78/10</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-degree">Intermediate - MPC</div>
+                    <div class="education-school">Junior College, Hyderabad</div>
+                    <div class="education-details">
+                        <span>March 2021</span>
+                        <span class="education-grade">Grade: 97.8%</span>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-degree">Secondary Education</div>
+                    <div class="education-school">Hyderabad</div>
+                    <div class="education-details">
+                        <span>March 2019</span>
+                        <span class="education-grade">CGPA: 9.5/10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section class="resume-download">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-secondary);">
+                Download my complete resume to learn more about my experience and qualifications.
+            </p>
+            <a href="assets/Resume.pdf" class="download-btn" onclick="downloadResume()">
+                <i class="fas fa-download"></i>
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sanjaygoudveeramalla@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91-6304139742</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hyderabad, Telangana - 500059, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/veeramalla-sanjay</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/Sanjay-Goud</span>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/movldelr" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="_replyto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/veeramalla-sanjay" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Sanjay-Goud" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&to=sanjaygoudveeramalla@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Veeramalla Sanjay. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
